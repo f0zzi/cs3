@@ -128,7 +128,7 @@ namespace cs3
         }
         double average
         {
-            get => (averageProg + averageAdm + averageDes) / marks.Length;
+            get => marks.Length > 0 ? (averageProg + averageAdm + averageDes) / marks.Length : 0;
         }
         public double Average()
         {

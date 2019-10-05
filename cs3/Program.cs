@@ -56,7 +56,7 @@ namespace cs3
             group.AddSt(new Student("name_four", "surn_four", "patr_four"));
             group.AddSt(new Student("name_five", "surn_five", "patr_five"));
             group.AddSt(new Student("name_six", "surn_six", "patr_six"));
-            group.SetRandMarks();
+            //group.SetRandMarks();
             group.Show();
 
             Console.WriteLine("remove student six===============================");
